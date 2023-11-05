@@ -89,7 +89,7 @@ Console.WriteLine("Time taken by System Implementation: " + systemHashTime + " m
 
 - **private static void ProcessBlock(uint[] h, byte[] block)**: Цей метод обробляє окремий блок даних. Він розглядає кожен блок даних і виконує раунди обчислення хешу SHA-1 на цьому блоку.
 
-- **private static uint f(int t, uint b, uint c, uint d)**: Ця функція визначає, яку операцію обчислення SHA-1 виконувати на кожному раунді. Вона залежить від номера раунду та значень b, c і d.
+- **private static uint F(int t, uint b, uint c, uint d)**: Ця функція визначає, яку операцію обчислення SHA-1 виконувати на кожному раунді. Вона залежить від номера раунду та значень b, c і d.
 
 - **private static uint K(int t)**: Ця функція визначає константи K(t), які використовуються в обчисленні SHA-1 на кожному раунді.
 
