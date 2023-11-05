@@ -57,7 +57,7 @@ public static class Sha1Hash
     {
         var w = new uint[80];
 
-        // Розширюємо блок 16 слівами в 80 слів
+        // Розширюємо блок 16 словами в 80 слів
         for (var t = 0; t < 16; t++)
         {
             w[t] = (uint)(block[t * 4] << 24) |
